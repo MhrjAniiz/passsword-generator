@@ -1,0 +1,64 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background : url(bngg.jpg);
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 400px;
+    padding:40px;
+    backgroud: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.8);
+    border-radius: 15px;
+}
+
+.box h1
+{
+    margin:0;
+    padding:0;
+    text-font:sans-serif;
+    text-align: center;
+ }
+
+
+.form-inline label {
+
+  margin: 10px 25px 15px 0;
+}
+
+.form-inline button {
+  margin: 25px 15px 150px 100px;
+  padding: 10px 20px;
+  background-color:#06256e;
+  border: 1px solid grey;
+  color:white;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size:20px;
+}
+.form-inline button:hover {
+  background-color: royalblue;
+}
+.form-inline input {
+
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.form-inline select{
+
+  vertical-align: middle;
+  margin: 5px 15px 5px 0;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
